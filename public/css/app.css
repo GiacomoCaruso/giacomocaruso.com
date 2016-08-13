@@ -1,0 +1,137 @@
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+#title {
+  color: black; }
+
+h1 {
+  font-family: Lato;
+  color: black;
+  opacity: 0.87;
+  font-weight: 100;
+  text-transform: uppercase; }
+
+h2,
+h3,
+h4,
+p {
+  font-family: Lato;
+  font-weight: 300;
+  color: black;
+  opacity: 0.87; }
+
+span,
+ul,
+li {
+  font-family: Lato;
+  font-weight: 300;
+  color: black; }
+
+h2 {
+  margin-top: 4%;
+  margin-bottom: 4%; }
+
+.projects {
+  opacity: 0; }
+
+.form {
+  opacity: 0; }
+
+.card-title {
+  opacity: 0.54; }
+
+#personal {
+  margin-right: 5%;
+  margin-left: -5%; }
+
+.fa {
+  color: #60AADB; }
+
+.fa:hover {
+  color: #3F8FC4; }
+
+.material-icons {
+  vertical-align: middle;
+  margin-bottom: 2px; }
+
+.material-icons.tabs-icons {
+  color: #000;
+  font-size: 32px;
+  opacity: 0.87; }
+
+.material-icons.tabs-icons:hover {
+  color: #87C0E6;
+  opacity: 1.0; }
+
+.active .material-icons {
+  opacity: 1.0;
+  color: white; }
+
+.active .material-icons.tabs-icons {
+  color: #60AADB;
+  opacity: 1.0; }
+
+.tabs,
+.icon-block {
+  margin-bottom: 7%;
+  margin-right: -5%;
+  margin-left: 5%; }
+
+.tabs .indicator {
+  background-color: #60AADB;
+  opacity: 1.0; }
+
+.tabs .text {
+  color: #60AADB; }
+
+.p-left {
+  margin-right: 5%;
+  margin-left: -5%; }
+
+.p-right {
+  margin-right: -5%;
+  margin-left: 5%; }
+
+.cont-form {
+  padding-right: 15%;
+  padding-left: 15%; }
+
+.center-btn {
+  text-align: center; }
+
+#btn-send {
+  font-family: Lato;
+  background-color: #60AADB; }
+
+#btn-send:hover {
+  background-color: #3F8FC4; }
+
+#nav {
+  bottom: 24px;
+  right: 24px; }
+
+.btn-large.btn-floating {
+  background-color: #60AADB; }
+
+.btn-floating {
+  background-color: #87C0E6; }
+
+.btn-floating:hover {
+  background-color: #60AADB; }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-bottom: 96px; }
+  #personal {
+    margin: 20px; }
+  .header {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  h1 {
+    font-size: 48px; }
+  .tabs,
+  .icon-block {
+    margin: 20px; } }
+
+/*# sourceMappingURL=app.css.map */

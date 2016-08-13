@@ -1,0 +1,180 @@
+$primary-color: #60AADB;
+$darker-color: #3F8FC4;
+$accent-color: #87C0E6;
+
+.header {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#title {
+  color: black;
+}
+
+h1 {
+  font-family: Lato;
+  color: black;
+  opacity: 0.87;
+  font-weight: 100;
+  text-transform: uppercase;
+}
+
+h2,
+h3,
+h4,
+p {
+  font-family: Lato;
+  font-weight: 300;
+  color: black;
+  opacity: 0.87;
+}
+
+span,
+ul,
+li {
+  font-family: Lato;
+  font-weight: 300;
+  color: black;
+}
+
+h2 {
+  margin-top: 4%;
+  margin-bottom: 4%;
+}
+
+.projects {
+  opacity: 0;
+}
+
+.form {
+  opacity: 0;
+}
+
+
+.card-title {
+  opacity: 0.54;
+}
+
+// Move 'About' card a bit to the left
+#personal {
+  margin-right: 5%;
+  margin-left: -5%;
+}
+
+.fa {
+  color: $primary-color;
+}
+
+.fa:hover {
+  color: $darker-color;
+}
+
+.material-icons {
+  vertical-align: middle;
+  margin-bottom: 2px;
+}
+
+.material-icons.tabs-icons {
+  color: #000;
+  font-size: 32px;
+  opacity: 0.87;
+}
+
+.material-icons.tabs-icons:hover {
+  color: $accent-color;
+  opacity: 1.0;
+}
+
+.active {
+  .material-icons {
+    opacity: 1.0;
+    color: white;
+  }
+  .material-icons.tabs-icons {
+    color: $primary-color;
+    opacity: 1.0;
+  }
+}
+
+// move tabs a bit to the right
+.tabs,
+.icon-block {
+  margin-bottom: 7%;
+  margin-right: -5%;
+  margin-left: 5%;
+}
+
+.tabs .indicator {
+  background-color: $primary-color;
+  opacity: 1.0;
+}
+
+.tabs .text {
+  color: $primary-color;
+}
+
+.p-left {
+  margin-right: 5%;
+  margin-left: -5%;
+}
+
+.p-right {
+  margin-right: -5%;
+  margin-left: 5%;
+}
+
+.cont-form {
+  padding-right: 15%;
+  padding-left: 15%;
+}
+
+.center-btn {
+  text-align: center;
+}
+
+#btn-send {
+  font-family: Lato;
+  background-color: $primary-color;
+}
+
+#btn-send:hover {
+  background-color: $darker-color;
+}
+
+#nav {
+  bottom: 24px;
+  right: 24px;
+}
+
+.btn-large.btn-floating {
+background-color: $primary-color;
+}
+
+.btn-floating {
+  background-color: $accent-color;
+}
+
+.btn-floating:hover {
+  //color: white;
+  background-color: $primary-color;
+}
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-bottom: 96px;
+  }
+  #personal {
+    margin: 20px;
+  }
+  .header {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+  h1 {
+    font-size: 48px;
+  }
+  .tabs,
+  .icon-block {
+    margin: 20px;
+  }
+}

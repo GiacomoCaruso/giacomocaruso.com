@@ -1,0 +1,130 @@
+h1 {
+  font-family: Lato;
+  font-size: 64px;
+  letter-spacing: 2px;
+  color: white;
+  opacity: 1.00;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+h2,
+h3,
+h4,
+p {
+  font-family: Lato;
+  font-weight: 300;
+  color: black;
+  opacity: 0.87; }
+
+span, ul, li {
+  font-family: Lato;
+  font-weight: 300;
+  color: black; }
+
+h2 {
+  margin-top: 4%;
+  margin-bottom: 4%; }
+
+h3 {
+  opacity: 0.87; }
+
+h4 {
+  text-transform: capitalize;
+  color: white;
+  font-weight: 400;
+  opacity: 1.00;
+  text-shadow: 1px 1px 0px #808080; }
+
+h5 {
+  font-weight: 200;
+  font-size: 22px; }
+
+.slider {
+  z-index: -1; }
+
+#big-header {
+  text-shadow: 2px 1px 1px #808080; }
+
+#subtitle-link {
+  color: white; }
+
+#subtitle-link:hover {
+  color: white;
+  text-shadow: 2px 2px 1px #888888; }
+
+.slider .indicators .indicator-item {
+  opacity: 0.4;
+  background-color: white; }
+
+.slider .indicators .indicator-item:hover {
+  opacity: 0.8;
+  background-color: #87C0E6; }
+
+.slider .indicators .indicator-item.active {
+  opacity: 1.0;
+  background-color: #3F8FC4; }
+
+.header {
+  padding-bottom: 15px; }
+
+.caption {
+  margin-top: 120px; }
+
+.card-panel {
+  background-color: rgba(117, 162, 191, 0.8); }
+
+#btn-home {
+  margin: 20px;
+  background-color: #3F8FC4 !important; }
+
+#btn-home:hover {
+  color: white !important;
+  background-color: #60AADB !important; }
+
+.backdrop {
+  background-color: white;
+  opacity: 0.87 !important; }
+
+#personal {
+  margin-right: 5%;
+  margin-left: -5%; }
+
+.material-icons {
+  vertical-align: middle;
+  margin-bottom: 2px; }
+
+.material-icons.tabs-icons {
+  color: #000;
+  font-size: 32px;
+  opacity: 0.87; }
+
+.material-icons.tabs-icons:hover {
+  color: #87C0E6;
+  opacity: 1.0; }
+
+.center-btn {
+  text-align: center; }
+
+#nav {
+  bottom: 24px;
+  right: 24px; }
+
+.btn-large.btn-floating {
+  background-color: #60AADB; }
+
+.btn-floating {
+  background-color: #87C0E6; }
+
+.btn-floating:hover {
+  background-color: #60AADB; }
+
+@media screen and (max-width: 768px) {
+  body {
+    margin-bottom: 96px; }
+  .header {
+    margin-top: 10px;
+    margin-bottom: 10px; }
+  h1 {
+    font-size: 48px; } }
+
+/*# sourceMappingURL=home.css.map */
