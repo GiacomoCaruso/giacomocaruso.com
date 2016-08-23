@@ -9,7 +9,7 @@
 
 @section('scripts')
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js"></script>
+<script src="<?php echo asset ('https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollTo/2.1.0/jquery.scrollTo.min.js') ?>"></script>
 <script type="text/javascript" src="{!! asset('js/app.js') !!}"></script>
 
 @stop
