@@ -17,10 +17,9 @@
 @section('content')
     <!--
     TODO:
-    - fix hover colors of the form;
     - make responsive for small devices;
     - write texts;
-    - animation code only on first time, ScrollFire and fadeInUp for mobiles;
+    - ScrollFire and fadeInUp for mobiles;
     - tidy code;
     -->
     <main>

@@ -120,6 +120,32 @@ h2 {
 .btn-floating:hover {
   background-color: #60AADB; }
 
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: #60AADB; }
+
+.input-field input[type=email]:focus + label {
+  color: #60AADB; }
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid #60AADB !important;
+  box-shadow: 0 1px 0 0 #60AADB !important; }
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid #60AADB !important;
+  box-shadow: 0 1px 0 0 #60AADB !important; }
+
+.input-field .prefix.active {
+  color: #60AADB; }
+
+textarea:focus {
+  border-bottom: 1px solid #60AADB !important;
+  box-shadow: 0 1px 0 0 #60AADB !important; }
+
+textarea:focus + label {
+  color: #60AADB !important; }
+
 @media screen and (max-width: 768px) {
   body {
     margin-bottom: 96px; }

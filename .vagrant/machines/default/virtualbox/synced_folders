@@ -1,1 +1,0 @@
-{"virtualbox":{"/home/vagrant/example":{"type":null,"mount_options":[],"guestpath":"/home/vagrant/example","hostpath":"/Users/Giacomo/Documents/Projects_Lavarel/example","disabled":false,"__vagrantfile":true},"/vagrant":{"guestpath":"/vagrant","hostpath":"/Users/Giacomo/Documents/Projects_Lavarel/example","disabled":false,"__vagrantfile":true}}}

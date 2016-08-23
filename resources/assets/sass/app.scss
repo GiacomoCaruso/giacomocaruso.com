@@ -147,7 +147,7 @@ h2 {
 }
 
 .btn-large.btn-floating {
-background-color: $primary-color;
+  background-color: $primary-color;
 }
 
 .btn-floating {
@@ -157,6 +157,41 @@ background-color: $primary-color;
 .btn-floating:hover {
   //color: white;
   background-color: $primary-color;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus + label {
+  color: $primary-color;
+}
+
+.input-field input[type=email]:focus + label {
+  color: $primary-color;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+  border-bottom: 1px solid $primary-color !important;
+  box-shadow: 0 1px 0 0 $primary-color !important;
+}
+
+.input-field input[type=email]:focus {
+  border-bottom: 1px solid $primary-color !important;
+  box-shadow: 0 1px 0 0 $primary-color !important;
+}
+
+.input-field .prefix.active {
+  color: $primary-color;
+}
+
+textarea:focus {
+  border-bottom: 1px solid $primary-color !important;
+  -webkit-box-shadow: 0 1px 0 0 $primary-color !important;
+  -moz-box-shadow: 0 1px 0 0 $primary-color !important;
+  box-shadow: 0 1px 0 0 $primary-color !important;
+}
+
+textarea:focus + label {
+  color: $primary-color !important;
 }
 
 @media screen and (max-width: 768px) {
